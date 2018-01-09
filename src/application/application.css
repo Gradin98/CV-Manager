@@ -1,0 +1,27 @@
+.keyword {
+    -fx-fill: yellow;
+    -fx-font-weight: bold;
+}
+.white {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
+
+.choice-box .label {
+     -fx-text-fill: white; 
+     -fx-background-color: #303030;
+}
+
+.choice-box .context-menu  {
+	-fx-text-fill: white; 
+    -fx-background-color: #303030;
+    -fx-border-color: white;
+}
+
+.choice-box .menu-item:focused > .label{ 
+	-fx-background-color: #6c0080;
+}
+
+.choice-box .menu-item:focused {
+	-fx-background-color: #6c0080;
+}

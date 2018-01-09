@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="image"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/mysql-connector-java-8.0.8-dmr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/pdfbox-app-2.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/richtextfx-demos-fat-0.7-M5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/sqlite-jdbc-3.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kocsi/Desktop/librarii java/postgresql-42.1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
