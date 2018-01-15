@@ -100,8 +100,8 @@ public class MainPane {
 		cb.setLayoutX(20);
 		cb.setLayoutY(250);
 		cb.setStyle(
-				"-fx-background-color: #303030;-fx-mark-color: #6c0080; -fx-border-style: none none solid none;\"\r\n"
-						+ "				+ \"-fx-border-color: transparent transparent white transparent;");
+				"-fx-background-color: #303030;-fx-mark-color: #6c0080; -fx-border-style: none none solid none;"
+						+ "-fx-border-color: transparent transparent white transparent;");
 
 		if (mysql.checkConnection()) {
 			list.add(mysql.numeClasa());
@@ -160,14 +160,13 @@ public class MainPane {
 	public void exportEvent(Button button, @SuppressWarnings("rawtypes") ChoiceBox cb) {
 
 		EventHandler<ActionEvent> buttonExportMysqlEvent = new EventHandler<ActionEvent>() {
-			@SuppressWarnings("static-access")
 			@Override
 			public void handle(ActionEvent event) {
 
 				Databases database = new SQLiteConnection();
 
 				if (cb.getValue() == "Mysql") {
-					database = new MysqlConnection().getInstance();
+					database = MysqlConnection.getInstance();
 				}
 
 				if (lista != null) {

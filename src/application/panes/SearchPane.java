@@ -79,8 +79,8 @@ public class SearchPane {
 		cb.setLayoutX(20);
 		cb.setLayoutY(50);
 		cb.setStyle(
-				"-fx-background-color: #303030;-fx-mark-color: #6c0080; -fx-border-style: none none solid none;\"\r\n"
-						+ "				+ \"-fx-border-color: transparent transparent white transparent;");
+				"-fx-background-color: #303030;-fx-mark-color: #6c0080; -fx-border-style: none none solid none;"
+						+ "-fx-border-color: transparent transparent white transparent;");
 
 		ObservableList<String> list = FXCollections.observableArrayList();
 
